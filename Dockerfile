@@ -4,7 +4,7 @@ COPY m3ugen.py /etc/periodic/daily/m3ugen.py
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 
-ENV M3UGEN_VERSION 0.0.2
+ENV M3UGEN_VERSION 1.0.0
 ENV CONFIG_FILE /data/playlists.conf
 
 RUN apk --update --no-cache add \
