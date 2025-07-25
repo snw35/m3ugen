@@ -1,4 +1,4 @@
-FROM python:3.12.5-alpine3.20
+FROM python:3.13.5-alpine3.22
 
 COPY m3ugen.py /etc/periodic/daily/m3ugen.py
 
