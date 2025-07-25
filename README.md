@@ -75,12 +75,12 @@ Or via compose:
 ```
   m3ugen:
     container_name: m3ugen
-    image: m3ugen:t1
+    image: snw35/m3ugen:latest
     restart: always
+    volumes:
+      - /path/to/music:/data
     environment:
       - CONFIG_FILE=/data/playlists.conf
-    volumes:
-      - m3ugen:/data
 ```
 
 ## Contributing
