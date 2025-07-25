@@ -1,6 +1,6 @@
 # m3ugen
 
-* [Build Status](https://github.com/snw35/m3ugen/actions/workflows/update.yml/badge.svg)
+* ![Build Status](https://github.com/snw35/m3ugen/actions/workflows/update.yml/badge.svg)
 * [Dockerhub: snw35/m3ugen](https://hub.docker.com/r/snw35/m3ugen)
 
 Genre playlist generator for large music collections.
